@@ -1,26 +1,30 @@
 <img src="Image/logo.png" alt="logo_samuelflm">
 
 
-# Sistema de Hospedagem no Csharp/.NET
+# Abstraindo um celular no Csharp/.NET
 
 <p>
-Este é um sistema simples e eficiente para gerenciar as reservas de um hotel. Ele permite que você crie hóspedes, suítes e faça reservas.
+Sou responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que faço uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+</p>
 
-<b>Funcionalidades</b>
-
-<b>Criação de Hóspedes:</b> Você pode criar hóspedes com o nome desejado.<br>
-<b>Criação de Suítes:</b> Você pode criar suítes com o tipo desejado, capacidade e valor diário.<br>
-<b>Reservas:</b> Você pode fazer reservas para um número específico de dias, cadastrar hóspedes na reserva e cadastrar a suíte na reserva.<br>
-
+Criei um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. De acordo com o diagrama abaixo:
 </p>
 
 <img src="Image/desafio.png" alt="logo_samuelflm">
 
-<p>
-Este exemplo cria dois hóspedes, uma suíte e faz uma reserva para 10 dias. Em seguida, imprime várias informações sobre a reserva.
+## Regras e validações
 
-Esperamos que este sistema possa ajudá-lo a gerenciar as reservas do seu hotel de maneira mais eficiente!
+<p>
+A classe Smartphone deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
+A classe Nokia e Iphone devem ser classes filhas de Smartphone.
+O método InstalarAplicativo deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 </p>
 
-<img src="Image/result.png" alt="logo_samuelflm">
+> Resultado Nokia
+
+<img src="Image/result_nokia.png" alt="logo_samuelflm">
+
+> Resultado Iphone
+
+<img src="Image/result_iphone.png" alt="logo_samuelflm">
 
