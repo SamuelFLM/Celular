@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Celular.Models
 {
-    public class Smartphone : ISmartphone
+    public abstract class Smartphone : ISmartphone
     {
         public Smartphone(){}
         public Smartphone(string numero, string modelo, string imei, int memoria){
@@ -15,23 +15,24 @@ namespace Celular.Models
             Memoria = memoria;
         }
         public string Numero { get; set; }
-        private string Modelo { get; set; }
-        private string IMEI { get; set; }
-        private int Memoria { get; set; }
+        protected string Modelo { get; set; }
+        protected string IMEI { get; set; }
+        protected int Memoria { get; set; }
 
-        public void InstalarAplicativo(string nome)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract void InstalarAplicativo(string nome);
 
         public void Ligar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Ligando smartphone\n".ToUpper());
+            Console.WriteLine($"Modelo: {Modelo}\n");
+            Console.WriteLine($"IMEI: {IMEI}\n");
+            Console.WriteLine($"Mémoria: {Memoria} de RAM\n");
         }
 
         public void ReceberLigacao()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Recebendo ligação".ToUpper());
+            Console.WriteLine($"Número: {Numero}");
         }
     }
 }

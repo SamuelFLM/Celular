@@ -9,6 +9,6 @@ namespace Celular.Models
     {
         void Ligar();
         void ReceberLigacao();
-        abstract void InstalarAplicativo(string nome);   
+       
     }
 }
