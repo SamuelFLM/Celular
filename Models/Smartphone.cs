@@ -26,13 +26,13 @@ namespace Celular.Models
             Console.WriteLine($"Ligando smartphone\n".ToUpper());
             Console.WriteLine($"Modelo: {Modelo}\n");
             Console.WriteLine($"IMEI: {IMEI}\n");
-            Console.WriteLine($"Mémoria: {Memoria} de RAM\n");
+            Console.WriteLine($"Mémoria: {Memoria} de RAM\n\n");
         }
 
         public void ReceberLigacao()
         {
-            Console.WriteLine("Recebendo ligação".ToUpper());
-            Console.WriteLine($"Número: {Numero}");
+            Console.WriteLine("\nRecebendo ligação.........\n".ToUpper());
+            Console.WriteLine($"Número: {Numero}\n".ToUpper());
         }
     }
 }

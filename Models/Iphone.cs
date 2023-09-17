@@ -13,11 +13,10 @@ namespace Celular.Models
         {
         }
 
-        public override void InstalarAplicativo(string nome)
+        public override void InstalarAplicativo(string appName)
         {
-            Console.WriteLine($"Instalando aplicativo {nome}\n");
-            Console.WriteLine($"Modelo:  {base.Modelo}\n");
-            Console.WriteLine($"Memoria: {base.Memoria}\n");
+            Console.WriteLine($"\nInstalando aplicativo............\n".ToUpper());
+            Console.WriteLine($"\nAplicativo:  {appName}\n".ToUpper());
         }
     }
 }

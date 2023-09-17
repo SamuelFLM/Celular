@@ -1,0 +1,15 @@
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\bin\Debug\net7.0\Celular.exe
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\bin\Debug\net7.0\Celular.deps.json
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\bin\Debug\net7.0\Celular.runtimeconfig.json
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\bin\Debug\net7.0\Celular.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\bin\Debug\net7.0\Celular.pdb
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\Celular.csproj.AssemblyReference.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\Celular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\Celular.AssemblyInfoInputs.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\Celular.AssemblyInfo.cs
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\Celular.csproj.CoreCompileInputs.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\Celular.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\refint\Celular.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\Celular.pdb
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\Celular.genruntimeconfig.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Celular\obj\Debug\net7.0\ref\Celular.dll
